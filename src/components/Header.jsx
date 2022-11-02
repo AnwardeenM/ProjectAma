@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Header.css";
 import SearchIcon from '@mui/icons-material/Search';
-import Search from '@mui/icons-material/Search';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 
 const Header = () => {
@@ -36,6 +36,10 @@ const Header = () => {
           <span className='header_optionL_Two'>
             Prime 
           </span>
+        </div>
+        <div className='header_optionbasket'>
+          <ShoppingBasketIcon />  
+          <span className='header_optionL_Two header_basketcount'>0</span>
         </div>
       </div>
     </div>

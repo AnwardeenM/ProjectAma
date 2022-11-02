@@ -6,7 +6,7 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <h1>This is the Amazon-clone-challenge</h1>
+      <h1>This is the Amazon-clone-challenge new one</h1>
       <Header/>
       
     </div>
