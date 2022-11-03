@@ -7,7 +7,7 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 const Header = () => {
   return (
     <div className='header'>
-      <img className='header_logo'  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAmazon_logo.svg&psig=AOvVaw1GMQ2BO3XBcUoQV7P5-PYH&ust=1667410591621000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPjz29XCjfsCFQAAAAAdAAAAABAD" alt="amazon logo" />
+      <img className='header_logo'  src="https://pngimg.com/uploads/amazon/small/amazon_PNG25.png" alt="amazon logo" />
       <div className='header_search'>
         <input className='header_Searchinput' type="text" />
         <SearchIcon className='header_searchIcon' />
